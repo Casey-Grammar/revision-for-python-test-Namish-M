@@ -5,7 +5,12 @@
 
 def main():
     #Write your code here
-    
+    line = input("Enter line: ")
+    word = "bear"
+    if word in line:
+        print("There's a bear in there")
+    elif word not in line:
+        print("No bears here.")    
         
     
     # End of your code here
